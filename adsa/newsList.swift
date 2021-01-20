@@ -33,7 +33,14 @@ struct NewsList: View {
         VStack{
             Text("最新路況廣播")
                 .font(.largeTitle)
+            /*HStack {
+                Text("區域")
+                Text("路線")
+                Text("發生時間")
+            }*/
+             
             NavigationView{
+                
                 List(newss.indices, id:\.self, rowContent: { (index) in
                     
                     //newsRow(news:newss[index])
@@ -42,7 +49,9 @@ struct NewsList: View {
                                     newsRow(news: newss[index])
                                    })
                 })
+                .navigationTitle("區域       路線       發生時間")
             }
+            //.navigationBarTitle("aaa",displayMode: .inline)
             
         }
         .onAppear(perform:{
