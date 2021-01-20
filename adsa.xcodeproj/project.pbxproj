@@ -11,6 +11,13 @@
 		43E2104025A425D000F04E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2103F25A425D000F04E71 /* ContentView.swift */; };
 		43E2104225A425D300F04E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E2104125A425D300F04E71 /* Assets.xcassets */; };
 		43E2104525A425D300F04E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E2104425A425D300F04E71 /* Preview Assets.xcassets */; };
+		43E2104E25A425E200F04E71 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2104D25A425E200F04E71 /* News.swift */; };
+		43E2105725A43F9600F04E71 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2105625A43F9500F04E71 /* NewsList.swift */; };
+		43E2105A25A4497200F04E71 /* newsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2105925A4497200F04E71 /* newsRow.swift */; };
+		43E2105D25A458A200F04E71 /* newsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2105C25A458A200F04E71 /* newsDetail.swift */; };
+		43EC000025A8890300644452 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ECFFFF25A8890300644452 /* MapView.swift */; };
+		43ECFFF325A8442B00644452 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ECFFF225A8442B00644452 /* Weather.swift */; };
+		43ECFFF825A85FE600644452 /* WeatherList1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ECFFF725A85FE600644452 /* WeatherList1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		43E2104125A425D300F04E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E2104425A425D300F04E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43E2104625A425D300F04E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E2104D25A425E200F04E71 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		43E2105625A43F9500F04E71 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		43E2105925A4497200F04E71 /* newsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsRow.swift; sourceTree = "<group>"; };
+		43E2105C25A458A200F04E71 /* newsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsDetail.swift; sourceTree = "<group>"; };
+		43ECFFF225A8442B00644452 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		43ECFFF725A85FE600644452 /* WeatherList1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherList1.swift; sourceTree = "<group>"; };
+		43ECFFFF25A8890300644452 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 			children = (
 				43E2103D25A425D000F04E71 /* adsaApp.swift */,
 				43E2103F25A425D000F04E71 /* ContentView.swift */,
+				43ECFFF225A8442B00644452 /* Weather.swift */,
+				43E2104D25A425E200F04E71 /* News.swift */,
+				43E2105625A43F9500F04E71 /* NewsList.swift */,
+				43ECFFFF25A8890300644452 /* MapView.swift */,
+				43E2105C25A458A200F04E71 /* newsDetail.swift */,
+				43ECFFF725A85FE600644452 /* WeatherList1.swift */,
+				43E2105925A4497200F04E71 /* newsRow.swift */,
 				43E2104125A425D300F04E71 /* Assets.xcassets */,
 				43E2104625A425D300F04E71 /* Info.plist */,
 				43E2104325A425D300F04E71 /* Preview Content */,
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43ECFFF325A8442B00644452 /* Weather.swift in Sources */,
+				43ECFFF825A85FE600644452 /* WeatherList1.swift in Sources */,
+				43E2104E25A425E200F04E71 /* News.swift in Sources */,
 				43E2104025A425D000F04E71 /* ContentView.swift in Sources */,
+				43E2105725A43F9600F04E71 /* NewsList.swift in Sources */,
+				43E2105D25A458A200F04E71 /* newsDetail.swift in Sources */,
 				43E2103E25A425D000F04E71 /* adsaApp.swift in Sources */,
+				43EC000025A8890300644452 /* MapView.swift in Sources */,
+				43E2105A25A4497200F04E71 /* newsRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
